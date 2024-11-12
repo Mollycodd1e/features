@@ -1,0 +1,15 @@
+.root {
+	width: 100%;
+	padding: 20px 0;
+}
+
+.navList {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.navItem {
+	cursor: pointer;
+}
