@@ -1,12 +1,14 @@
 'use client'
-import { SvgHover } from './components/svgHover/svgHover'
+import { FloorHover } from './components/floorHover/floorHover'
+import { TowerHover } from './components/towerHover/towerHover'
 import styles from './page.module.css'
 
 export default function Home() {
 	return (
 		<div className={styles.page}>
 			<main className={styles.main}>
-				<SvgHover />
+				<TowerHover />
+				<FloorHover />
 			</main>
 		</div>
 	)

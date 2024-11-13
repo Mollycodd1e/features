@@ -1,17 +1,15 @@
 .root {
-	position: relative;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+	gap: 20px;
 	width: 100%;
-	height: 100%;
+	min-height: 300px;
+}
 
-	& img {
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
-	}
+.imageWrapper {
+	position: relative;
+	width: 100%;
+	min-height: 300px;
 }
 
 .wrapper {
@@ -34,6 +32,25 @@
 			}
 		}
 	}
+}
+
+.logo {
+	width: 100%;
+	height: 100%;
+	border-radius: 24px;
+	object-fit: cover;
+}
+
+.textWrappers {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.title {
+	font-size: 20px;
+	line-height: 32px;
+	font-weight: 500;
 }
 
 @media(min-width: 1440px) {
